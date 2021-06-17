@@ -38,15 +38,15 @@ function hourTracker() {
 hourTracker();
 
 //Here I am setting the value of each hour in link with localStorage.
-$('#hour7').val(localStorage.getItem('hour7'));
-$('#hour8').val(localStorage.getItem('hour8'));
-$('#hour9').val(localStorage.getItem('hour9'));
-$('#hour10').val(localStorage.getItem('hour10'));
-$('#hour11').val(localStorage.getItem('hour11'));
-$('#hour12').val(localStorage.getItem('hour12'));
-$('#hour13').val(localStorage.getItem('hour13'));
-$('#hour14').val(localStorage.getItem('hour14'));
-$('#hour15').val(localStorage.getItem('hour15'));
+$('#hour7.descripton').val(localStorage.getItem('hour7'))
+$('#hour8.descripton').val(localStorage.getItem('hour8'))
+$('#hour9.descripton').val(localStorage.getItem('hour9'))
+$('#hour10.descripton').val(localStorage.getItem('hour10'))
+$('#hour11.descripton').val(localStorage.getItem('hour11'))
+$('#hour12.descripton').val(localStorage.getItem('hour12'))
+$('#hour13.descripton').val(localStorage.getItem('hour13'))
+$('#hour14.descripton').val(localStorage.getItem('hour14'))
+$('#hour15.descripton').val(localStorage.getItem('hour15'))
 
 //Last I am tying the saveBtn to the input slot. That way the date in the input slot gets saved to localStorage, and the saveBtn actual works.
 $("#saveBtn7, #saveBtn8, #saveBtn9, #saveBtn10, #saveBtn11, #saveBtn12, #saveBtn13, #saveBtn14, #saveBtn15").click(function() {
